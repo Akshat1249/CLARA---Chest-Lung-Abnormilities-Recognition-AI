@@ -3,7 +3,7 @@ CLARA: Chest Lung Abnormality Recognition AI — Multi-label chest X-ray abnorma
 
 # CLARA — Chest Lung Abnormality Recognition AI
 
-[![Conference](https://img.shields.io/badge/Conference-DMCE--GTC%202026-blue)](https://dmce.ac.in)
+[![Conference](https://img.shields.io/badge/Conference-DMCE--GTC%202026-blue)]((https://dmcegtc.csidmce.com/))
 [![Dataset](https://img.shields.io/badge/Dataset-NIH%20ChestX--ray14-green)](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 [![Python](https://img.shields.io/badge/Python-3.12-yellow)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://tensorflow.org)
@@ -169,8 +169,8 @@ for i, label in enumerate(labels):
 | Hardware | 2× NVIDIA Tesla T4 (Kaggle) |
 | Strategy | TensorFlow MirroredStrategy |
 | DenseNet121 Epochs | 15 (8 + 7 continued) |
-| ResNet50 Epochs | 7 |
-| EfficientNetB4 Epochs | 7 |
+| ResNet50 Epochs | 15 (8 + 7 continued) |
+| EfficientNetB4 Epochs | 15 (8 + 7 continued) |
 | Early Stopping Patience | 8 |
 
 ---
